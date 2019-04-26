@@ -38,7 +38,7 @@ tell application "iTerm"
 		write text "sleep 10s"
 		write text "vault login root"
 		write text "open http://127.0.0.1:8200"
-		write text "open http://gitpitch.com/kecorbin/vault-demo"
+
 	end tell
 
 end tell

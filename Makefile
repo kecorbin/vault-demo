@@ -8,7 +8,7 @@ postgres:
 	./scripts/start-postgres.sh
 
 cred:
-	vault read database/creds/readonly
+	vault read database/creds/webtier
 
 secure:
 	vault lease revoke -prefix database/
